@@ -26,7 +26,7 @@ h3,h5 {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 60px;
     letter-spacing: 2px;
 }
 
@@ -202,6 +202,7 @@ footer {
     font-weight: 600;
     font-size: 3rem;
     line-height: 40px;
+    text-align: center;
 }
 
 .custom-navbar .nav li a {
