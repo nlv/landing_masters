@@ -767,6 +767,10 @@ footer {
     line-height: normal;
   }
 
+  .navbar-brand {
+    height: inherit;
+  }
+
   #intro h3 {
     letter-spacing: none;
     line-height: normal;
