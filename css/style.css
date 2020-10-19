@@ -75,7 +75,6 @@ a {
 }
 
 #detail, #video,
-#program,
 #sponsors, 
 #contact, footer {
     padding-top: 10rem;
@@ -322,38 +321,6 @@ footer {
 -----------------------------------------*/
 #video iframe {
   border: none;
-}
-
-
-/*---------------------------------------
-   Program section              
------------------------------------------*/
-
-#program {
-  background: #f9f9f9;
-}
-
-#program h4 {
-    color: #808080;
-    font-size: 12px;
-}
-
-#program h3 {
-  margin-top: 16px;
-}
-
-#program .program-divider {
-    border: 1px solid #f9f9f9;
-    margin-top: 32px;
-    margin-bottom: 42px;
-}
-
-#program span {
-    padding-right: 12px;
-}
-
-#program img {
-  border-radius: 50%;
 }
 
 .nav-tabs {
@@ -685,10 +652,6 @@ footer {
 
   .nav-tabs > li > a {
     font-size: 13px;
-  }
-
-  #program img {
-    padding-bottom: 32px;
   }
 
   #sponsors img {
