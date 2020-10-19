@@ -8,9 +8,11 @@ http://www.templatemo.com/tm-486-new-event
 
 body {
 		background: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-		font-weight: 400;
+    font-family: 'AGAvantGardeCyr Book', monospace;
+    /* font-family: monospace; */
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 14px;
 }
 
 
@@ -25,13 +27,17 @@ h3,h5 {
   font-weight: 500;
 }
 
+h1.stepped {
+  /* margin-top: 60px; */
+}
+
 h1 {
-    font-size: 60px;
+    font-size: 1.3rem;
     letter-spacing: 2px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 
@@ -734,6 +740,43 @@ footer {
   #intro {
     height: 100vh;
   }
+
+  @media (max-width: 600px) {
+
+    body {
+      font-size: 8px;
+    }  
+
+    h1 {
+      font-size: 1.3rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      text-transform: uppercase;
+    }
+    
+    h3 {
+      line-height: none;
+      font-size: 1.1rem;
+    }
+
+    #intro h3 {
+      letter-spacing: 1px;
+    }    
+    
+    h5 {
+        padding-top: 10px;
+    }        
+
+    .col-sm-12 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+
+
 
 }
 

@@ -1,0 +1,12 @@
+@font-face {
+	font-family: "AGAvantGardeCyr Book";
+	src: url("../fonts/agavantgardecyr-book.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/agavantgardecyr-book.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("../fonts/agavantgardecyr-book.otf") format("opentype"), /* Open Type Font */
+		url("../fonts/agavantgardecyr-book.svg") format("svg"), /* Legacy iOS */
+		url("../fonts/agavantgardecyr-book.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("../fonts/agavantgardecyr-book.woff") format("woff"), /* Modern Browsers */
+		url("../fonts/agavantgardecyr-book.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
