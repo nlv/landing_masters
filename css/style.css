@@ -11,6 +11,7 @@ body {
     font-family: 'AGAvantGardeCyr Book', monospace;
     font-style: normal;
     font-weight: 400;
+    /* box-sizing: padding-box; */
 }
 
 
@@ -111,6 +112,8 @@ footer {
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
+
+
 
 #intro .btn-danger,
 #contact .btn-danger {
@@ -739,42 +742,49 @@ footer {
     height: 100vh;
   }
 
-  @media (max-width: 600px) {
+}
 
-    body {
-      font-size: 8px;
-    }  
+@media (max-width: 600px) {
 
-    h1 {
-      font-size: 1.3rem;
-    }
+  body {
+    font-size: 14px;
+  }  
 
-    h2 {
-      font-size: 1.2rem;
-      text-transform: uppercase;
-    }
-    
-    h3 {
-      line-height: none;
-      font-size: 1.1rem;
-    }
+  h1 {
+    font-size: 1.4em;
+    line-height: normal;
+  }
 
-    #intro h3 {
-      letter-spacing: 1px;
-    }    
-    
-    h5 {
-        padding-top: 10px;
-    }        
-
-    .col-sm-12 {
-      padding-left: 0;
-      padding-right: 0;
-    }
+  h2 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    line-height: normal;
   }
   
+  h3 {
+    line-height: none;
+    font-size: 1.2em;
+    line-height: normal;
+  }
 
+  #intro h3 {
+    letter-spacing: none;
+    line-height: normal;
+  }    
+  
+  h5 {
+      padding-top: 10px;
+  }        
 
+  .col-sm-12 {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
 
+  #intro .btn {
+    padding: 0px 0px;
+    margin-right: 0px; 
+    padding: 10px 5px;
+  }  
 }
 
