@@ -1,0 +1,55 @@
+diff --git a/css/style.css b/css/style.css
+index f818513..8ad86db 100644
+--- a/css/style.css
++++ b/css/style.css
+@@ -26,7 +26,7 @@ h3,h5 {
+ }
+ 
+ h1 {
+-    font-size: 40px;
++    font-size: 60px;
+     letter-spacing: 2px;
+ }
+ 
+@@ -202,6 +202,7 @@ footer {
+     font-weight: 600;
+     font-size: 3rem;
+     line-height: 40px;
++    text-align: center;
+ }
+ 
+ .custom-navbar .nav li a {
+diff --git a/images/intro-bg.jpg b/images/intro-bg.jpg
+index 0019532..897fab4 100644
+Binary files a/images/intro-bg.jpg and b/images/intro-bg.jpg differ
+diff --git a/index.html b/index.html
+index 6a91b76..8595979 100644
+--- a/index.html
++++ b/index.html
+@@ -50,7 +50,8 @@ http://www.templatemo.com/tm-486-new-event
+ 				<span class="icon icon-bar"></span>
+ 				<span class="icon icon-bar"></span>
+ 			</button>
+-			<a href="#" class="navbar-brand">New Event</a>
++			<!-- <a href="#" class="navbar-brand">New Event</a> -->
++			<a href="#" class="navbar-brand">Компания<br>"Мастеровой"</a>
+ 		</div>
+ 
+ 		<div class="collapse navbar-collapse">
+@@ -80,10 +81,12 @@ http://www.templatemo.com/tm-486-new-event
+ 		<div class="row">
+ 
+ 			<div class="col-md-12 col-sm-12">
+-				<h3 class="wow bounceIn" data-wow-delay="0.9s">July 22 - 26 in San Francisco, CA</h3>
+-				<h1 class="wow fadeInUp" data-wow-delay="1.6s">Web Design Conference</h1>
+-				<a href="#overview" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="2.3s">LEARN MORE</a>
+-				<a href="#register" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="2.3s">REGISTER NOW</a>
++				<h3 class="wow bounceIn" data-wow-delay="0.9s">Надо: gps маршруты в навигаторе рядом с вашим домом.</h3>
++				<h3 class="wow bounceIn" data-wow-delay="0.9s">Выдаем ключи от всех подъездов. </h3>
++				<h1 class="wow fadeInUp" data-wow-delay="1.6s">Ищем промоутера</h1>
++				<h1 class="wow fadeInUp" data-wow-delay="1.6s">Зарплата 20 000 руб. в месяц</h1>
++				<!-- <a href="#overview" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="2.3s">LEARN MORE</a> -->
++				<a href="#register" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="2.3s">Заказать обратный звонок</a>
+ 			</div>
+ 
+ 
