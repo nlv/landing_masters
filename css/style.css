@@ -74,29 +74,22 @@ a {
   padding-bottom: 14rem;
 }
 
-#detail, #video,
-#sponsors, 
-#contact, footer {
+#detail, #video {
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
 
-#detail,
-#sponsors,
-footer {
+#detail {
   text-align: center;
 }
 
 #overview h3,
 #detail h3, #video h3,
-#register h3,
-#venue h3,
-#contact h3 {
-    padding-bottom: 12px;
+#register h3 {
+  padding-bottom: 12px;
 }
 
-#intro .btn,
-#contact .btn {
+#intro .btn {
     background: transparent;
     border: 2px solid #ffffff;
     border-radius: 0px;
@@ -113,24 +106,15 @@ footer {
 
 
 
-#intro .btn-danger,
-#contact .btn-danger {
+#intro .btn-danger {
     background: #f2545f;
     border-color: transparent;
-}
-
-#contact .btn {
-  border-radius: 100px;
 }
 
 #intro .btn-danger:hover {
   background: transparent;
   border-color: #ffffff;
   color: #ffffff;
-}
-
-#contact .btn-danger:hover {
-  background: #222;
 }
 
 #intro .btn-default:hover {
@@ -397,161 +381,6 @@ footer {
 
 
 
-/*---------------------------------------
-   Faq section              
------------------------------------------*/
-#faq {
-  background: #f9f9f9;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-#faq .panel-group {
-  margin-top: 32px;
-}
-
-#faq .panel-group .panel {
-  margin-bottom: 8px;
-}
-
-#faq .panel-default {
-  border: none;
-}
-
-#faq .panel-default>.panel-heading {
-  background: #f0f0f0;
-  color: #505050;
-}
-
-#faq .panel-heading {
-  border: none;
-  padding-top: 8px;
-  padding-bottom: 6px;
-}
-
-#faq .panel-default>.panel-heading+.panel-collapse>.panel-body {
-  border-top: none;
-  padding-top: 22px;
-  padding-left: 32px;
-  padding-bottom: 22px;
-}
-
-#faq .panel-heading .panel-title a[data-toggle="collapse"] {
-  font-size: 18px;
-  font-weight: 500;
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding: 10px 15px;
-}
-
-#faq .panel-heading .panel-title a[data-toggle="collapse"]::after {
-  content: "-";
-  display: block;
-  position: absolute;
-  line-height: 1;
-  right: 1em;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#faq .panel-heading .panel-title a[data-toggle="collapse"].collapsed::after {
-  content: "+";
-}
-
-
-
-/*---------------------------------------
-   Venue section              
------------------------------------------*/
-#venue {
-    background: url('../images/venue-bg.jpg') 50% 0 repeat-y fixed;
-    background-size: cover;
-    background-position: center center;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-}
-
-#venue p {
-  padding-top: 12px;
-  padding-bottom: 18px;
-}
-
-
-
-/*---------------------------------------
-   Sponsors section              
------------------------------------------*/
-#sponsors img {
-  margin-top: 18px;
-}
-
-
-
-/*---------------------------------------
-   Contact section              
------------------------------------------*/
-#contact {
-    background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
-    background-size: cover;
-    background-position: center center;
-}
-
-#contact .contact_des {
-  padding-top: 3rem;
-  padding-right: 2rem;
-}
-
-#contact .contact_detail {
-  background: #ffffff;
-  padding: 5rem 5rem 12rem 5rem;
-}
-
-#contact .form-control {
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid #f0f0f0;
-  border-radius: 0px;
-  box-shadow: none;
-  margin-bottom: 16px;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact .form-control:focus {
-  border-bottom-color: #999;
-}
-
-#contact input {
-  height: 45px;
-}
-
-#contact input[type="submit"] {
-  background: #222;
-  border-radius: 100px;
-  border: none;
-  color: #ffffff;
-  letter-spacing: 2px;
-  height: 50px;
-  margin-top: 12px;
-  transition: all 0.4s ease-in-out;
-}
-
-#contact input[type="submit"]:hover {
-  background: #f2545f;
-}
-
-
-
-/*---------------------------------------
-   Footer section              
------------------------------------------*/
-footer {
-  background-attachment: fixed;
-}
-
-
-
 /* Back top */
 .go-top {
   background-color: #222;
@@ -631,11 +460,7 @@ footer {
     margin-top: 42px;
   }
 
-  #contact .contact_detail {
-  background: #ffffff;
-  padding: 10rem 3rem 10rem 5rem;
-}
-
+  
 }
 
 @media (max-width: 768px) {
@@ -652,14 +477,6 @@ footer {
 
   .nav-tabs > li > a {
     font-size: 13px;
-  }
-
-  #sponsors img {
-    padding-top: 22px;
-  }
-
-  #contact .contact_detail {
-    margin-top: 82px;
   }
 
 }
