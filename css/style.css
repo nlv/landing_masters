@@ -241,7 +241,7 @@ a {
     }
     .custom-navbar.top-nav-collapse {
         background: #101010;
-        padding: 0;
+        padding: 30px;
     }
 
 }
@@ -514,6 +514,12 @@ a {
 
   .navbar-brand {
     height: inherit;
+  }
+
+  .custom-navbar .navbar-brand.navbar-phone {
+    padding-top: 0px;
+    line-height: normal;
+    height: auto;
   }
 
   #intro h3 {
