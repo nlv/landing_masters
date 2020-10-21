@@ -165,16 +165,7 @@ http://www.templatemo.com/tm-486-new-event
 				<h1>8 999-457-70-90</h1>
 			</div>
 
-			<div class="wow fadeInUp col-md-5 col-sm-5" data-wow-delay="1s">
-				<form action="#" method="post">
-					<input name="firstname" type="text" class="form-control" id="firstname" placeholder="Имя">
-					<input name="phone" type="telephone" class="form-control" id="phone" placeholder="Номер телефона">
-					<div class="col-md-offset-6 col-md-6 col-sm-offset-1 col-sm-10">
-						<input name="submit" type="submit" class="form-control" id="submit" value="ПЕРЕЗВОНИТЕ МНЕ">
-					</div>
-				</form>
-
-				<!-- <script src="https://yastatic.net/q/forms-frontend-ext/_/embed.js"></script><iframe src="https://forms.yandex.ru/u/5f8eca30d99e21bb9291042a/?iframe=1" frameborder="0" name="ya-form-5f8eca30d99e21bb9291042a" width="650"></iframe>				 -->
+			<div id="callback_form" class="wow fadeInUp col-md-5 col-sm-5" data-wow-delay="1s">
 			</div>
 
 			<div class="col-md-1"></div>
@@ -199,6 +190,20 @@ http://www.templatemo.com/tm-486-new-event
 <script src="js/smoothscroll.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/react.production.min.js"></script>
+<script src="js/react-dom.production.min.js"></script>
+<!-- <script src="js/react.development.js"></script>
+<script src="js/react-dom.development.js"></script> -->
+<script src="js/babel.min.js"></script>
+<script src="js/axios.min.js"></script>
+
+<script type='text/babel' src='js/callback_form.js'></script>
+<script type='text/babel'>
+$(function () {
+  const domContainer = document.querySelector('#callback_form');
+  ReactDOM.render(<CallbackForm></CallbackForm>, domContainer);        
+});
+</script>
 
 </body>
 </html>

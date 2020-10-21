@@ -363,7 +363,7 @@ a {
   height: 45px;
 }
 
-#register input[type="submit"] {
+#register input[name="submit"] {
   background: #f2545f;
   border-radius: 100px;
   border: none;
@@ -374,7 +374,7 @@ a {
   transition: all 0.4s ease-in-out;
 }
 
-#register input[type="submit"]:hover {
+#register input[name="submit"]:hover {
   background: #ffffff;
   color: #222;
 }
