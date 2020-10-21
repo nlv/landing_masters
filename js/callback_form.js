@@ -29,11 +29,12 @@ const CallbackForm =  () => {
             callbackName: refName.current.value,
             callbackPhone: refPhone.current.value
         }
-    
+
         axios.post('http://78.40.219.246:8080/api/callback', data, {}).then((a) =>  {
           setState(stateConsts.success)
-          refName.value = ''
-          refPhone.value = ''
+          refName.current.value = ''
+          refPhone.current.value = ''
+          setEmpty(true)
         }).catch ((error) => {
           if (isMounted.current) {
             setState(stateConsts.failed)
@@ -57,7 +58,9 @@ const CallbackForm =  () => {
                   }}/>
             <div className="col-md-offset-6 col-md-6 col-sm-offset-1 col-sm-10">
                 <input name="submit" type="button" className="form-control" id="submit" value="ПЕРЕЗВОНИТЕ МНЕ" 
-                disabled={state != stateConsts.normal} onClick={sendForm}/>
+                // disabled={state != stateConsts.normal && state != stateConsts.failed} onClick={sendForm}/>
+                disabled={state == stateConsts.empty || state == stateConsts.sending} onClick={sendForm}/>
+
             </div>
             {
                 state == stateConsts.success && 
